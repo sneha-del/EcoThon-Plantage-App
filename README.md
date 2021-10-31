@@ -14,3 +14,8 @@ The Android App made created for the Hackathon Ecothon.
 ![ScreenShot 1](https://github.com/sneha-del/EcoThon-Plantage-App/blob/master/whattodo.jpeg?raw=true)
 ![ScreenShot 1](https://github.com/sneha-del/EcoThon-Plantage-App/blob/master/plantage.jpeg?raw=true)
 ![ScreenShot 1](https://github.com/sneha-del/EcoThon-Plantage-App/blob/master/coupons.jpeg?raw=true)
+
+Contributors :<br/>
+<a href="https://github.com/vikas-narwariya">Vikas Narwariya</a> <br/>
+<a href="https://github.com/nisha-Kumari15">Nisha Kumari</a><br/>
+<a href="https://github.com/sneha-del">Sneha</a>
