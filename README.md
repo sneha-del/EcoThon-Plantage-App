@@ -9,3 +9,8 @@ The Android App made created for the Hackathon Ecothon.
 3. Firebase
 4. Firestore
 5. XML
+
+![ScreenShot 1](https://github.com/sneha-del/EcoThon-Plantage-App/blob/master/options.jpeg?raw=true)
+![ScreenShot 1](https://github.com/sneha-del/EcoThon-Plantage-App/blob/master/whattodo.jpeg?raw=true)
+![ScreenShot 1](https://github.com/sneha-del/EcoThon-Plantage-App/blob/master/plantage.jpeg?raw=true)
+![ScreenShot 1](https://github.com/sneha-del/EcoThon-Plantage-App/blob/master/coupons.jpeg?raw=true)
