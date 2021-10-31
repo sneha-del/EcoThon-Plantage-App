@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Plantage</string>
+    <string name="app">Welcome !!</string>
+    <string name="activity_login">LOGIN</string>
+    <string name="activity_signup">SIGNUP</string>
+    <string name="activity_forgot">Forgot Password?</string>
+    <string name="signup_next">Dont have an account? Signup</string>
+    <string-array name="numbers">
+        <item>Select a Plant-0</item>
+        <item>Tulsi-100</item>
+        <item>Aloevera-100</item>
+        <item>Badam-100</item>
+        <item>Neem-100</item>
+        <item>Mango-100</item>
+        <item>Other-100</item>
+    </string-array>
+</resources>

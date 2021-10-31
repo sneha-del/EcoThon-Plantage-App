@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "65221596285",
+    "project_id": "haryaali-71c9f",
+    "storage_bucket": "haryaali-71c9f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65221596285:android:fbfcb40d5b8299c6b28d14",
+        "android_client_info": {
+          "package_name": "com.example.paid_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65221596285-09cb1pcb8dj8e89in36pi01542vo18n2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7Ayvv9xSuPwHqxLIixo1PAqC4DnL5OHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "65221596285-09cb1pcb8dj8e89in36pi01542vo18n2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

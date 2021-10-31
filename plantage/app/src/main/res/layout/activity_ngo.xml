@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".Ngo">
+
+    <TextView
+        android:id="@+id/num4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9869088188"
+        android:textColor="@color/black"
+        android:elevation="15dp"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@id/ok2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ngo4"
+        app:layout_constraintTop_toBottomOf="@id/num3" />
+
+    <TextView
+        android:id="@+id/num3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9619838858"
+        android:textColor="@color/black"
+        android:elevation="5dp"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@id/num4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ngo3"
+        app:layout_constraintTop_toBottomOf="@id/ngo2" />
+
+    <TextView
+        android:id="@+id/num2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8850031378"
+        android:textColor="@color/black"
+        android:elevation="5dp"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@id/num3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ngo2"
+        app:layout_constraintTop_toBottomOf="@id/ngo1" />
+
+    <TextView
+        android:id="@+id/ngo_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List of NGO's"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@id/ngo1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ngo1"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="Pipal Tree Foundation"
+        android:textColor="@color/black"
+        android:elevation="5dp"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@id/ngo2"
+        app:layout_constraintEnd_toStartOf="@id/num1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ngo_list" />
+
+    <TextView
+        android:id="@+id/num1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8169867793"
+        android:textColor="@color/black"
+        android:elevation="5dp"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@id/num2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ngo1"
+        app:layout_constraintTop_toBottomOf="@id/ngo_list" />
+
+    <TextView
+        android:id="@+id/ngo2"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="Project Green Hands"
+        android:textColor="@color/black"
+        android:elevation="5dp"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@id/ngo3"
+        app:layout_constraintEnd_toStartOf="@id/num2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ngo1" />
+
+    <TextView
+        android:id="@+id/ngo3"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="Green Yatra"
+        android:textColor="@color/black"
+        android:elevation="5dp"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@id/ngo4"
+        app:layout_constraintEnd_toStartOf="@id/num3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ngo2" />
+
+    <TextView
+        android:id="@+id/ngo4"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="Sankalp Taru"
+        android:textColor="@color/black"
+        android:elevation="5dp"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@id/ok2"
+        app:layout_constraintEnd_toStartOf="@id/num4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ngo3" />
+
+    <Button
+        android:id="@+id/ok2"
+        android:layout_width="106dp"
+        android:layout_height="54dp"
+        android:backgroundTint="@color/button"
+        android:text="OK"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.865" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

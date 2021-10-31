@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#E7EFF6</color>
+    <color name="colorPrimaryDark">#74ACD8</color>
+    <color name="colorAccent">#ADCBE3</color>
+    <color name="button">#063ACE</color>
+    <color name="paid_secondary">#6FFFD8</color>
+    <color name="paid">#1FCA9B</color>
+    <color name="background">#BAE3BC</color>
+</resources>

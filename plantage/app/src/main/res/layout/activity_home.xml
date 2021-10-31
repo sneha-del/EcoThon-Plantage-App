@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/top_bar1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:fontFamily="@font/acme"
+        android:text="Plantage"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/menu"
+        android:layout_width="30sp"
+        android:layout_height="52dp"
+        android:src="@drawable/tree"
+        app:layout_constraintStart_toStartOf="@+id/top_bar1"
+        app:layout_constraintTop_toTopOf="@id/top_bar1"
+        app:layout_constraintBottom_toBottomOf="@id/top_bar1"
+        android:layout_marginStart="15dp"
+        />
+
+
+    <Button
+        android:id="@+id/guide_button"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:fontFamily="@font/acme"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/glassy_btn"
+        android:elevation="15dp"
+        android:shadowColor="#eeee"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="10"
+        android:text="Plantage Guide"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@id/start_planting"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/top_bar1" />
+
+    <Button
+        android:id="@+id/start_planting"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/acme"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/glassy_btn"
+        android:elevation="15dp"
+        android:shadowColor="#eeee"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="10"
+        android:text="Let's start Planting"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guide_button" />
+
+    <TextView
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@color/colorPrimary"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/gallery"
+        android:layout_width="29dp"
+        android:layout_height="26dp"
+        android:layout_marginRight="40dp"
+        android:src="@drawable/ic_gallery"
+        app:layout_constraintBottom_toBottomOf="@+id/bottom_bar"
+        app:layout_constraintEnd_toStartOf="@+id/camera"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bottom_bar" />
+
+    <ImageView
+        android:id="@+id/reward"
+        android:layout_width="30dp"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/ic_gift"
+        app:layout_constraintBottom_toBottomOf="@id/bottom_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/camera"
+        app:layout_constraintTop_toTopOf="@id/bottom_bar" />
+
+    <ImageView
+        android:id="@+id/camera"
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_camera"
+        app:layout_constraintBottom_toBottomOf="@id/bottom_bar"
+        app:layout_constraintEnd_toStartOf="@+id/reward"
+        app:layout_constraintStart_toEndOf="@+id/gallery"
+        app:layout_constraintTop_toTopOf="@+id/bottom_bar"
+        app:layout_constraintVertical_bias="0.545" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
